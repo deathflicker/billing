@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Billing
+	</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body scroll="no" style="overflow: hidden">
+	<meta 
+     name='viewport' 
+     content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' 
+/>
+
+<div id="mainDiv">
+	<input id="name" type="textbox" placeholder="Name">
+	<input id="mobile" type="textbox" placeholder="Mobile Number">
+	<input id="type" type="textbox" placeholder="Payment Method">
+	<input id="plan" type="textbox" placeholder="Plan">
+	<input id="date" type="textbox" placeholder="Date">
+	<hr>
+	<input id="one" type="textbox" placeholder="Song1">
+	<input id="two" type="textbox" placeholder="Song2">
+	<input id="three" type="textbox" placeholder="Song3">
+	<input id="four" type="textbox" placeholder="Song4">
+	<input id="five" type="textbox" placeholder="Song5">
+	<input id="six" type="textbox" placeholder="Song6">
+	<input id="seven" type="textbox" placeholder="Song7">
+	<input id="eight" type="textbox" placeholder="Song8">
+	<input id="nine" type="textbox" placeholder="Song9">
+	<input id="ten" type="textbox" placeholder="Song10">
+	<div>
+		<button onclick="print()">Process</button>
+	</div>
+</div>
+<!-- Bill Area -->
+	<div id="billingArea">
+		<div id="heading">
+			Invoice
+		</div>
+		<div id="body">
+			<div id="contents">
+				<label id="namePrint">Name: </label>
+			</div>
+			<div id="contents">
+				<label id="mobilePrint">Mobile Number: </label>
+			</div>
+			<div id="contents">
+				<label id="typePrint">Payment Type: </label>
+			</div>
+			<div id="contents">
+				<label id="planPrint">Plan: </label>
+			</div>
+			<div id="contents">
+				<label id="datePrint">Date: </label>
+			</div>
+			<hr>
+			<table>
+				<tr>
+					<th>
+						Songs
+					</th>
+				</tr>
+				<tr>
+					<td id="onePrint">
+					</td>
+				</tr>
+				<tr>
+					<td id="twoPrint">
+					</td>
+				</tr>
+				<tr>
+					<td id="threePrint">
+						
+					</td>
+				</tr>
+				<tr>
+					<td id="fourPrint">
+						
+					</td>
+				</tr>
+				<tr>
+					<td id="fivePrint">
+						
+					</td>
+				</tr>
+				<tr>
+					<td id="sixPrint">
+						
+					</td>
+				</tr>
+				<tr>
+					<td id="sevenPrint">
+						
+					</td>
+				</tr>
+				<tr>
+					<td id="eightPrint">
+						
+					</td>
+				</tr>
+				<tr>
+					<td id="ninePrint">
+						
+					</td>
+				</tr>
+				<tr>
+					<td id="tenPrint">
+						
+					</td>
+				</tr>
+			</table>
+			<div id="paidMark">
+				<img style="width: 35%; height: 15%;" src="paid.png">
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="mainScript.js"></script>
+</body>
+</html>
